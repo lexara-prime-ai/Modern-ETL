@@ -1,4 +1,4 @@
-# Choosing the Right Tool for your Modern ETL Workloads
+# Choosing the Right Tool for Modern ETL Workloads
 
 ## What is ETL?
 ETL stands for **Extract, Transform, Load**. It's a process used to:
@@ -72,7 +72,26 @@ Traditional ETL tools are slow and hard to scale. Modern tools are:
 
 ---
 
-### 4. **Google BigQuery with Orchestration**
+### 4. **Databricks (Full Version)**
+**Definition**: A premium, enterprise-grade platform that combines big data processing, machine learning, and ETL in a scalable, collaborative environment.
+
+**Main Strengths**:
+- Combines **data engineering, data science, and ML** in one platform.
+- Optimized for **Apache Spark** for parallel data processing.
+- Built-in **Delta Lake** for reliable data storage and management.
+
+**Benefits**:
+- **Auto-scaling** clusters handle massive workloads efficiently.
+- Excellent for **real-time data processing**.
+- Collaboration features for large teams (shared notebooks and jobs).
+
+**Drawbacks**:
+- Higher cost compared to other tools.
+- Requires expertise in Spark and cloud infrastructure.
+
+---
+
+### 5. **Google BigQuery with Orchestration**
 **Definition**: A cloud data warehouse with new orchestration features to handle ETL workflows end-to-end.
 
 **Main Strengths**:
@@ -92,12 +111,13 @@ Traditional ETL tools are slow and hard to scale. Modern tools are:
 
 ## Summary Table
 
-| Tool                 | Strengths                        | Best For                              |
-|----------------------|-----------------------------------|---------------------------------------|
-| **dbt-core**         | Transformations with SQL         | SQL users, small teams, simple setups |
-| **dbt Cloud**        | Collaboration and scheduling     | Teams needing easier deployments      |
-| **Databricks CE**    | Big data processing with Spark   | Processing large, complex datasets    |
-| **Google BigQuery**  | Integrated ETL and analysis      | Scalable, serverless workflows        |
+| Tool                 | Strengths                              | Best For                              |
+|----------------------|-----------------------------------------|---------------------------------------|
+| **dbt-core**         | Transformations with SQL               | SQL users, small teams, simple setups |
+| **dbt Cloud**        | Collaboration and scheduling           | Teams needing easier deployments      |
+| **Databricks CE**    | Big data processing with Spark         | Processing large, complex datasets    |
+| **Databricks (Full)**| Full-stack big data and ML processing  | Enterprise-grade ETL and ML workflows |
+| **Google BigQuery**  | Integrated ETL and analysis            | Scalable, serverless workflows        |
 
 ---
 
@@ -112,8 +132,8 @@ Traditional ETL tools are slow and hard to scale. Modern tools are:
 
 3. **Watch Your Budget**:
    - Open-source and free: dbt-core, Databricks CE.
-   - Enterprise-ready: dbt Cloud, BigQuery.
+   - Enterprise-ready: dbt Cloud, Databricks (Full), BigQuery.
 
 ---
 
-## Questions and Discussion
+## Q&A
