@@ -54,6 +54,7 @@ Traditional ETL tools may be slow and hard to scale. Modern tools are:
 
 ---
 
+![databricks](https://th.bing.com/th/id/OIP.l8qugM7-MqzRscZ9yiMT-QHaBK?rs=1&pid=ImgDetMain)
 ### 3. **Databricks Community Edition**
 **Definition**: A free version of Databricks, a unified platform for big data analytics, machine learning, and ETL.
 
@@ -92,6 +93,7 @@ Traditional ETL tools may be slow and hard to scale. Modern tools are:
 
 ---
 
+![big query](https://hayaengineer.com/wp-content/uploads/2021/03/big-1.png)
 ### 5. **Google BigQuery with Orchestration**
 **Definition**: A cloud data warehouse with new orchestration features to handle ETL workflows end-to-end.
 
