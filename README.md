@@ -7,7 +7,8 @@ ETL stands for **Extract, Transform, Load**. It's a process used to:
 3. **Load** it into a destination system like a data warehouse for analysis.
 
 ### Why Modern ETL Tools?
-Traditional ETL tools are slow and hard to scale. Modern tools are:
+Traditional ETL tools may be slow and hard to scale. Modern tools are:
+- **Easy to Setup**.
 - **Faster**: Built for large data volumes.
 - **Flexible**: Work well with cloud platforms.
 - **Scalable**: Handle growing workloads efficiently.
@@ -15,7 +16,7 @@ Traditional ETL tools are slow and hard to scale. Modern tools are:
 ---
 
 ## Tools We’ll Explore
-
+![dbt](https://th.bing.com/th/id/OIP.jScsbKXrTkATsAsms9CLlQHaFj?rs=1&pid=ImgDetMain)
 ### 1. **dbt-core**
 **Definition**: A command-line tool that allows you to write transformations in SQL and manage them like code.
 
