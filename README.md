@@ -8,7 +8,7 @@ ETL stands for **Extract, Transform, Load**. It's a process used to:
 
 ### Why Modern ETL Tools?
 Traditional ETL tools may be slow and hard to scale. Modern tools are:
-- **Easy to Setup**.
+- **Extremely** Easy to Setup.
 - **Faster**: Built for large data volumes.
 - **Flexible**: Work well with cloud platforms.
 - **Scalable**: Handle growing workloads efficiently.
